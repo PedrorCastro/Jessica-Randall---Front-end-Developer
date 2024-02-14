@@ -83,7 +83,7 @@ p {
     background-color: #555;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     /* Estilos específicos para dispositivos com largura máxima de 600 pixels (por exemplo, celulares) */
     .profile {
         width: 100%; /* Ajusta a largura para ocupar toda a largura disponível */

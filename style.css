@@ -1,4 +1,7 @@
 @import url(https://fonts.google.com/specimen/Inter);
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -107,4 +110,8 @@ p {
     .profile-links {
         width: 80%; /* Reduz a largura da lista de links */
     }
+}
+.profile-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: #000000;
 }
